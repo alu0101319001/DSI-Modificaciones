@@ -1,0 +1,1 @@
+{"processes":{"3a414065-91ed-4c1d-8795-0b17a27a12c6":{"parent":null,"children":["fc5e919d-2cd9-4c6b-8a51-4f4301896978"]},"fc5e919d-2cd9-4c6b-8a51-4f4301896978":{"parent":"3a414065-91ed-4c1d-8795-0b17a27a12c6","children":[]}},"files":{"/home/usuario/mod/DSI-Modificaciones/src/mod1.ts":["fc5e919d-2cd9-4c6b-8a51-4f4301896978"]},"externalIds":{}}
