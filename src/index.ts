@@ -1,9 +1,16 @@
-import {Solver} from './strategy/solver';
-import {BubbleSort} from './algoritmos/bubblesort';
-import {MergeSort} from './algoritmos/mergesort';
+import {Reduce} from './reduce';
+import {AddReduce} from './addreduce';
+import {SubReduce} from './subreduce';
+import {ProdReduce} from './prodreduce';
+import {DivReduce} from './divreduce';
 
-const mySolver = new Solver([9,2,1,5,6,7,8,3,4], new BubbleSort());
-mySolver.logic();
+function clientCode(reduceFunction: Reduce) {
+    reduceFunction.run;
+}
 
-mySolver.setStrategy(new MergeSort());
-mySolver.logic();    
+let array: number[] = [1,2,3,4,5];
+
+clientCode(new AddReduce(array));
+clientCode(new SubReduce(array));
+clientCode(new ProdReduce(array));
+clientCode(new DivReduce(array));

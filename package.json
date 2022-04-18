@@ -6,7 +6,6 @@
   "scripts": {
     "test": "mocha",
     "coverage": "nyc npm test && nyc report --reporter=lcov",
-    "mod1": "tsc-watch --onSuccess \"node dist/mod1.js\"",
     "doc": "typedoc"
   },
   "repository": {
